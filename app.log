@@ -1,0 +1,11 @@
+root - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "/Users/evanscott/Desktop/Repos/Note Writer/nwriter.py", line 147, in view_notes
+    tree.column("#3", anchor=CENTER, width=500)
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/tkinter/ttk.py", line 1215, in column
+    return _val_or_dict(self.tk, kw, self._w, "column", column)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/tkinter/ttk.py", line 281, in _val_or_dict
+    res = tk.call(*(args + options))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: Column #3 out of range
